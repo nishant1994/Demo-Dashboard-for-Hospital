@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>Demo Dashboard</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" integrity="sha512-3q8fi8M0VS+X/3n64Ndpp6Bit7oXSiyCnzmlx6IDBLGlY5euFySyJ46RUlqIVs0DPCGOypqP8IRk/EyPvU28mQ==" crossorigin="anonymous" />
+<link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+
+<style>
+#rcorners {
+  border-radius: 25px;
+  border: 2px solid skyblue;
+  width: 300px;
+  height: 40px;  
+}
+body {
+    font-family: 'Fira Sans';font-size: 22px;
+}
+.slider-track-high {
+	background: red;
+}
+.slider-track-low {
+	background: yellow;
+}
+.slider-selection {
+	background: green;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="row">
+
+<div class="col">
+  <h4><strong>Demo Medical Centre</strong></h4>
+  <h5>Sample Address, City, Country</h5><br>
+</div>
+
+<div class="col">
+<a href="logout.php">LOGOUT</a>
+</div>
+
+</div> <!-- close row>
+
+<div class="row">
+
+<div class="col">
+<div class="dropdown">
+  <button id="rcorners" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="dropdown">
+  <button id="rcorners" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+</div>
+
+<div class="col">
+<div class="dropdown">
+  <button id="rcorners" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
+</div>
+
+</div> <!-- row close --> <br><br>
+
+<h4><strong>SERVICE DESCRIPTION / SERVICE DETAILS</strong></h4>
+  <h5>25 MILE RADIUS FROM ZIP CODE 110011</h5>
+
+<div class="row">
+
+<div class="col">
+<table class="table table-borderless">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  
+<div class="col">
+<h4>MARKET VARIABLES</h4>
+<p>25 MILE RADIUS FROM ZIP CODE</p>
+<input
+	type="text"
+	data-provide="slider"
+	data-slider-min="0"
+	data-slider-max="10"
+	data-slider-value="2.5"
+	data-slider-tooltip="hide"
+        data-slider-enabled="false">
+
+<p>$3000 to $8000 AVERAGE PATIENT</p>
+<input
+	type="text"
+	data-provide="slider"
+	data-slider-min="0"
+	data-slider-max="10"
+	data-slider-value="[3,8]"
+	data-slider-tooltip="hide"
+        data-slider-enabled="false">
+
+<p>20% CONVERTED TO CLIENT</p>
+<input
+	type="text"
+	data-provide="slider"
+	data-slider-min="0"
+	data-slider-max="10"
+	data-slider-value="2"
+	data-slider-tooltip="hide"
+        data-slider-enabled="false">
+</div>
+
+  
+<div class="col">
+<h4><strong>ANNAUAL PROSPECTS</strong></h4>
+<h5><font color="green">9,693</font></h5><br>
+<h4><strong>ANNAUAL PATIENTS</strong></h4>
+<h5><font color="green">98,693</font></h5><br>
+<h4><strong>ANAUAL POTENTIAL</strong></h4>
+<h5><font color="green">10,6777,693</font></h5>
+</div>
+
+</div> <!-- row close --><br>
+
+<div class="row">
+
+<div class="col p-4" style="border:1px solid black;background-color:#33ccff;margin-right:20px;">
+<center>15 MINUTES DRIVE TIME</center>
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="400px" frameborder="1" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div class="col p-4" style="border:1px solid black;background-color:#33ccff;margin-left:20px;">
+<center>30 MINUTES DRIVE TIME</center>
+<div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="400px" frameborder="1" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+
+</div> <!-- row close --><br>
+
+</div> <!-- container close -->
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js" integrity="sha512-f0VlzJbcEB6KiW8ZVtL+5HWPDyW1+nJEjguZ5IVnSQkvZbwBt2RfCBY0CBO1PsMAqxxrG4Di6TfsCPP3ZRwKpA==" crossorigin="anonymous"></script>
+</html>
