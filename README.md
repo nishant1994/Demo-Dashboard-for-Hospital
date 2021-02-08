@@ -5,6 +5,6 @@ The dashboard is created using Bootstrap and PHP.
 
 Login Details:-
 USERNAME: admin
-PASSEORD: 12345
+PASSWORD: 12345
 
 Feel free to use it for your personal use. Thanks.
